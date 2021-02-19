@@ -39,12 +39,12 @@ html {
 }
 body {
   font-size: 1.6rem;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 /* header */
 
-header{
+header {
   position: relative;
   width: 100%;
   display: flex;
@@ -53,34 +53,47 @@ header{
   align-items: center;
   height: 35.3rem;
   overflow: hidden;
-  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 
-.header--image-container{
+.header--image-container {
   margin-top: 7.8rem;
   margin-bottom: 3.3rem;
 }
 
-.header--title-container{
+.header--title-container {
   align-self: center;
   width: 90%;
   text-align: center;
-  color: white;
 }
 
-.header--title-container h1{
+.header--title-container h1 {
   margin-bottom: 2.4rem;
   font-weight: 700;
   font-size: 2.4rem;
+  color: var(--just-white);
+  line-height: 2.4rem;
 }
 
-.header--title-container p{
+.header--title-container p {
   font-weight: 500;
   font-size: 1.4rem;
+  color: var(--soft-orange);
+  line-height: 1.8rem;
 }
 
-.header--title-container a{
+.header--title-container a {
   font-size: 1.4rem;
   font-weight: 700;
-  color: ;
+  color: var(--warm-black);
+  text-decoration: none;
+  background-color: var(--off-white);
+  padding: 1.2rem 1.6rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+  border-radius: 0.4rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80%;
 }
