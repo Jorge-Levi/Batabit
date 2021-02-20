@@ -52,7 +52,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 35.3rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 
@@ -96,4 +96,8 @@ header {
   right: 0;
   margin: auto;
   width: 80%;
+}
+
+.header--title-container a img{
+  margin-left: 0.8rem;
 }
