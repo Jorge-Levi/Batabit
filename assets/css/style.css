@@ -56,26 +56,29 @@ header {
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 
-.header--image-container {
+.header__image--container {
   margin-top: 7.8rem;
   margin-bottom: 3.3rem;
 }
 
-.header--title-container {
+.header__title--container {
   align-self: center;
-  width: 90%;
   text-align: center;
+  width: 288px;
+  max-width: 488px;
 }
 
-.header--title-container h1 {
+.header__title--container h1 {
   margin-bottom: 2.4rem;
   font-weight: 700;
   font-size: 2.4rem;
   color: var(--just-white);
   line-height: 2.4rem;
+  max-width: 48.8rem;
+  margin: 0 auto;
 }
 
-.header--title-container p {
+.header__title--container p {
   font-weight: 500;
   font-size: 1.4rem;
   color: var(--soft-orange);
@@ -83,7 +86,7 @@ header {
   margin-bottom: 3.2rem;
 }
 
-.header--title-container a {
+.header__title--container a {
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--warm-black);
@@ -96,10 +99,10 @@ header {
   left: 0;
   right: 0;
   margin: auto;
-  width: 80%;
+  width: 229px;
 }
 
-.header--title-container a img{
+.header__title--container a img{
   margin-left: 0.8rem;
 }
 
@@ -112,31 +115,69 @@ main{
   padding-top: 5rem;
 }
 
-.main-exchange_container{
+.main__exchange--container{
   width: 100%;
   height: auto;
   text-align: center;
 }
 
-.main-exchange_texto{
+.main__exchange--texto{
   width: 90%;
   margin: 0 auto;
 }
 
-.main-exchange_texto h2{
+.main__exchange--texto h2{
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 2.6rem;  
   color: var(--warm-black)
 }
 
-.main-exchange_texto p{
+.main__exchange--texto p{
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.8rem;
   color: #757575;
 }
 
-.main-tables-container{
+.main__tables--container{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.currency__table--title{
+  color: #FF9536;
+  font-family: 1.8rem;
+  line-height: 2.3rem;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+}
+
+.currency__table--container table{
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.currency__table--container td{
+  padding: 1rem 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+  letter-spacing: -0.02;
+  
+}
+
+.table__left{
+  color: #B5B0AC;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+
+.table__right{
+  color: #757575;
   
 }
