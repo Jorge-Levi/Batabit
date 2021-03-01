@@ -32,62 +32,100 @@
                 <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
             </div>
             <section class="main__tables--container">
-                <div class="main__currency--table">
-                    <p class="currency__table--title">Monedas</p>
-                </div>
-                <div class="currency__table--container">
-                    <table>
-                        <tr>
-                            <td class="table__top--left table__left">Bitcoin</td>
-                            <td class="table__top--right table__right">$1.96 <span><img src="assets/icons/trending_down.svg" alt=""></span></td>
-                        </tr>
-                        <tr>
-                            <td class="table__left">Ethereum</td>
-                            <td class="table__right">$0.07 <span><img src="assets/icons/trending_up.svg" alt=""></span></td>
-                        </tr>
-                        <tr>
-                            <td class="table__left">Ripple</td>
-                            <td class="table__right">$2.15 <span><img src="assets/icons/trending_down.svg" alt=""></span></td>
-                        </tr>
-                        <tr>
-                            <td class="table__bottom--left table__left">Stellar</td>
-                            <td class="table__bottom--right table__right">$4.96 <span><img src="assets/icons/trending_down.svg" alt=""></span></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="currency__table--date">
-                    <p><b>Actualizado : </b><span id="fechaMonedas"><span></p>
+                <div class="tableMonedas">
+                    <div class="main__currency--table">
+                        <p class="currency__table--title">Monedas</p>
+                    </div>
+                    <div class="currency__table--container">
+                        <table>
+                            <tr>
+                                <td class="table__top--left table__left">Bitcoin</td>
+                                <td class="table__top--right table__right">$1.96 <span><img src="assets/icons/trending_down.svg" alt=""></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table__left">Ethereum</td>
+                                <td class="table__right">$0.07 <span><img src="assets/icons/trending_up.svg" alt=""></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table__left">Ripple</td>
+                                <td class="table__right">$2.15 <span><img src="assets/icons/trending_down.svg" alt=""></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom--left table__left">Stellar</td>
+                                <td class="table__bottom--right table__right">$4.96 <span><img src="assets/icons/trending_down.svg" alt=""></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="currency__table--date">
+                        <p><b>Actualizado : </b><span id="fechaMonedas"><span></p>
+                    </div>
                 </div>
 
-                <div class="main__currency--table">
-                    <p class="currency__table--title currency__table--title-blue">Comisiones</p>
-                </div>
-                <div class="currency__table--container">
-                    <table>
-                        <tr>
-                            <td class="table__top--left table__left">Bitrade</td>
-                            <td class="table__top--right table__right">$12.96</td>
-                        </tr>
-                        <tr>
-                            <td class="table__left">Bitprecio</td>
-                            <td class="table__right">$13.07</td>
-                        </tr>
-                        <tr>
-                            <td class="table__left">Novadax</td>
-                            <td class="table__right">$13.15</td>
-                        </tr>
-                        <tr>
-                            <td class="table__bottom--left table__left">Coinext</td>
-                            <td class="table__bottom--right table__right">$14.96</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="currency__table--date">
-                    <p><b>Actualizado : </b><span id="fechaComisiones"><span></p>
+                <div class="tableComisiones">
+                    <div class="main__currency--table">
+                        <p class="currency__table--title currency__table--title-blue">Comisiones</p>
+                    </div>
+                    <div class="currency__table--container">
+                        <table>
+                            <tr>
+                                <td class="table__top--left table__left">Bitrade</td>
+                                <td class="table__top--right table__right">$12.96</td>
+                            </tr>
+                            <tr>
+                                <td class="table__left">Bitprecio</td>
+                                <td class="table__right">$13.07</td>
+                            </tr>
+                            <tr>
+                                <td class="table__left">Novadax</td>
+                                <td class="table__right">$13.15</td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom--left table__left">Coinext</td>
+                                <td class="table__bottom--right table__right">$14.96</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="currency__table--date currency__table--date-blue">
+                        <p><b>Actualizado : </b><span id="fechaComisiones"><span></p>
+                    </div>
                 </div>
             </section>
         </section>
-        <section></section>
+        <section class="main-product-detail">
+              <span><img src="assets/icons/logo_min.svg" alt=""></span>
+              <div>
+                  <h2>Creamos un producto sin comparación.</h2>
+                  <p>Confiable y diseñado para su uso diario.</p>
+              </div>
+              <section class="product-cards__container">
+                  <article class="product-detail__card">
+                    <span class="product-datil__icon"><img src="assets/icons/clock.svg" alt="icon clock"></span>
+                    <p class="product-detail__title">Tiempo real</p>
+                    <p class="product-detail__body">Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
+                  </article>
+              </section>
+              <section class="product-cards__container">
+                  <article class="product-detail__card">
+                    <span class="product-datil__icon"><img src="assets/icons/eye.svg" alt="icon eye"></span>
+                    <p class="product-detail__title">No hay tasas escondidas</p>
+                    <p class="product-detail__body">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                  </article>
+              </section>
+              <section class="product-cards__container">
+                  <article class="product-detail__card">
+                    <span class="product-datil__icon"><img src="assets/icons/dollar_sign.svg" alt="icon dollar"></span>
+                    <p class="product-detail__title">Compara monedas</p>
+                    <p class="product-detail__body">No más rumores, con Babtabit sabrás el valor real de cada moneda en el mercado actual.</p>
+                  </article>
+              </section>
+              <section class="product-cards__container">
+                  <article class="product-detail__card">
+                    <span class="product-datil__icon"><img src="assets/icons/check-circle 1.svg" alt="icon check"></span>
+                    <p class="product-detail__title">Información confiable</p>
+                    <p class="product-detail__body">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+                  </article>
+              </section>
+        </section>
         <section></section>
         <section></section>
     </main>
@@ -98,7 +136,7 @@
         const fechaComisiones = document.getElementById("fechaComisiones");
 
         let time_print = new Date();
-        
+
         fechaMonedas.innerHTML = `${time_print.toLocaleString()}`
         fechaComisiones.innerHTML = `${time_print.toLocaleString()}`
     </script>

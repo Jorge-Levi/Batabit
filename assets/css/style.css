@@ -145,6 +145,10 @@ main{
   margin: 0 auto;
   /* text-align: center; */
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .currency__table--title{
@@ -153,6 +157,7 @@ main{
   line-height: 2.3rem;
   font-weight: bold;
   font-family: "DM Sans", sans-serif;
+  
 }
 
 .currency__table--title-blue{
@@ -184,4 +189,21 @@ main{
 
 .table__right{
   color: #757575;
+}
+
+.currency__table--date{
+  margin-top: 1.6rem;
+  background-color: #ffe9d4;
+  width: auto;  border-radius: 0.8rem;
+}
+
+.currency__table--date p {
+  padding: 0.8rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  color: var(--warm-black);
+}
+
+.currency__table--date-blue{
+  background-color: #E7F5FF;
 }
