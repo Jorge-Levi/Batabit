@@ -207,3 +207,30 @@ main{
 .currency__table--date-blue{
   background-color: #E7F5FF;
 }
+
+.main-product-detail{
+  margin-top: 6.4rem;
+  background-color: var(--warm-black);
+  width: 100%;
+  height: auto;
+  padding: 1.7rem;
+  position:relative;
+}
+
+.logo__absolute{
+  position: absolute;
+  top: calc(0% - 1.25rem);
+  left: calc(50% - 2rem);
+}
+
+.product-detail__title{
+  text-align: center;
+}
+
+.product-detail__title h2{
+  color: white;
+}
+
+.product-detail__title p{
+  color: #808080;
+}
