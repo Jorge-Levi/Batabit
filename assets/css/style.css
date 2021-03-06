@@ -285,9 +285,97 @@ main{
 .bitcoin-img-container h2{
   text-align: center;
   margin-top: 0;
-  padding: 6.4rem;
   color: var(--just-white);
   font-weight: bold;
   font-size: 2.4rem;
   line-height: 2.6rem;
+}
+
+.main-plans-container{
+  background-color: #E5E5E5;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.plans__title{
+  margin-bottom: 3.4rem;
+  padding: 6.4rem 1.5rem 0 1.5rem;
+  margin-bottom: 3.4rem;
+}
+
+.plans__title h2{
+  color: var(--warm-black);
+  margin: 0;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+}
+
+.plans__title p{
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-top: 2.4rem;
+}
+
+.plans-container__slider{
+  width: 100%;
+  background-color: #808080;
+}
+
+.plans-container__card{
+  background-color: white;
+  width: 19rem;
+  margin: 0 auto;
+  border-radius: 0.8rem;
+  height: auto;
+  position: relative;
+  padding-top: 3.1rem;
+  padding-bottom: 2.4rem;
+}
+
+.recommend{
+  background-color: var(--bitcoin-orange);
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  /* display: inline; */
+  position: absolute;
+  top: calc(0% - 1.25rem);
+  left: calc(50% - 52px);
+  margin: 0;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.plans-card__body h3{
+  color: black;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8px;
+}
+
+.plans-card__body .pago sub{
+  font-size: 5.2rem;
+  font-weight: 700;
+}
+
+.plans-card__body .pago{
+  font-size: 1.2rem;
+  font-family: 'Inter';
+  margin-bottom: 1.6rem;
+  margin-top: 0.8rem;
+  height: 5.6rem;
+  overflow: hidden;
+  line-height: 6.2rem;
+}
+
+.plans-card__body .description{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #757575;
 }
