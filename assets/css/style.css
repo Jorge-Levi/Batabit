@@ -321,7 +321,7 @@ main{
 
 .plans-container__slider{
   width: 100%;
-  background-color: #808080;
+  /* background-color: #808080; */
 }
 
 .plans-container__card{
@@ -378,4 +378,25 @@ main{
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: #757575;
+}
+
+.plans-card__btn{
+  color: var(--off-white);
+  border: 0.2rem solid var(--bitcoin-orange);
+  color: var(--warm-black);
+  text-align: center;
+  padding: 1.2rem 1.6rem;
+  border-radius: 0.4rem;
+  font-family: 'DM Sans';
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.plans-card__btn span{
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-image: url(/assets/icons/arrow_right.svg);
+  vertical-align: text-bottom;
 }
