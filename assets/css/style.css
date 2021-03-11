@@ -41,6 +41,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "DM Sans", sans-serif;
+  background-color: var(--off-white);
 }
 /* header */
 
@@ -109,8 +110,7 @@ header {
 /* MAIN 1 */
 
 main{
-  background-color: var(--off-white);
-  width: 100%;
+  /* width: 100%; */
   height: auto;
   padding-top: 5rem;
 }
@@ -292,10 +292,9 @@ main{
 }
 
 .main-plans-container{
-  background-color: #E5E5E5;
   height: auto;
-  width: 100%;
   text-align: center;
+  margin-bottom: 6.4rem;
 }
 
 .plans__title{
@@ -320,19 +319,31 @@ main{
 }
 
 .plans-container__slider{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   width: 100%;
-  /* background-color: #808080; */
+  margin: 0 auto;
 }
 
 .plans-container__card{
+  scroll-snap-align: center;
   background-color: white;
-  width: 19rem;
-  margin: 0 auto;
   border-radius: 0.8rem;
-  height: auto;
+  height: 24.7rem;
   position: relative;
   padding-top: 3.1rem;
   padding-bottom: 2.4rem;
+  width: 19rem;
+  margin: 2rem auto;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+@media (min-width: 768px){
+  .plans-container__card{
+    width: 30%;
+  }
 }
 
 .recommend{
@@ -372,6 +383,10 @@ main{
   line-height: 6.2rem;
 }
 
+.plans-card__body .pagoGris{
+  color: grey;
+}
+
 .plans-card__body .description{
   font-family: 'Inter';
   font-weight: 500;
@@ -393,10 +408,52 @@ main{
   line-height: 1.8rem;
 }
 
+.plans-card__btn.btnGris{
+  color: gray;
+  border: 0.2rem solid grey;
+}
+
 .plans-card__btn span{
   display: inline-block;
   width: 2rem;
   height: 2rem;
   background-image: url(/assets/icons/arrow_right.svg);
   vertical-align: text-bottom;
+}
+
+.plans-card__btn.plans-card__btn.btnGris span{
+  background-image: url(/assets/icons/arrow-right_1.svg);
+}
+
+.planes-container--slider::-webkit-scrollbar {
+  background-color: var(--soft-orange);
+  height: 3px;
+}
+.planes-container--slider::-webkit-scrollbar-thumb {
+  background-color: var(--bitcoin-orange);
+}
+
+footer{
+  display: flex;
+  background-color: var(--bitcoin-orange);
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+footer section ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer section ul li{
+  line-height: 1.8;
+}
+
+footer section ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
